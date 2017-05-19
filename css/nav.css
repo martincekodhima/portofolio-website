@@ -1,0 +1,30 @@
+.side-menu {
+  background-color: #e2363c;
+  height: 100vh;
+}
+
+.side-nav {
+  padding-top: 60%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.side-nav ul li .item {
+  height: 100%;
+  width: 100%;
+}
+
+.side-nav ul li .item:hover {
+  background-color: #e73f45;
+}
