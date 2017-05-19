@@ -2,6 +2,10 @@
   background-color: #edfcfc;
 }
 
+.invisible {
+  display: none;
+}
+
 html {
   overflow: hidden;
 }

@@ -4,7 +4,7 @@
 }
 
 .side-nav {
-  padding-top: 60%;
+  padding-top: 35px;
   text-align: center;
   font-size: 25px;
   font-weight: 600;
@@ -23,8 +23,16 @@
 .side-nav ul li .item {
   height: 100%;
   width: 100%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 
 .side-nav ul li .item:hover {
   background-color: #e73f45;
+}
+
+.side-nav img {
+  width: 60%;
+  padding-bottom: 45px;
 }
