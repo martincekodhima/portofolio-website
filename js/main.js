@@ -2,23 +2,27 @@ $(document).ready(function() {
   $("a#aboutme").click(function () {
     hideAll();
     complete.restart();
-    $("div#aboutme").toggleClass("invisible");
+    $("div#aboutme").removeClass("invisible");
   });
   $("a#contact").click(function () {
-    console.log("hello");
+    hideAll();
     complete.restart();
+    $("div#contact").removeClass("invisible");
   });
   $("a#projects").click(function () {
-    console.log("hello");
+    hideAll();
     complete.restart();
+    $("div#projects").removeClass("invisible");
   });
   $("a#resume").click(function () {
-    console.log("hello");
+    hideAll();
     complete.restart();
+    $("div#resume").removeClass("invisible");
   });
   $("a#photography").click(function () {
-    console.log("hello");
+    hideAll();
     complete.restart();
+    $("div#photography").removeClass("invisible");
   });
 
   function hideAll() {
